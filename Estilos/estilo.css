@@ -28,3 +28,7 @@ header{
     width: 20px;
     height: 20px;
 }
+#contenido {
+    width: 1000px;
+    margin: 0 auto;
+}
