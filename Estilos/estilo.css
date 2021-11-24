@@ -1,5 +1,5 @@
 header{
-    position: fixed;
+   /* position: fixed;*/
     width: 100%;
     padding-top: 20px;
     padding-left: 8%;
@@ -31,4 +31,17 @@ header{
 #contenido {
     width: 1000px;
     margin: 0 auto;
+}
+.ojo{
+    width: 10px;
+    height: 40px;
+    color: green;
+    padding: 5%;
+}
+.imgOjo{
+    width: 40px;
+    height:40px;
+}
+h3{
+    padding-left: 30;
 }
