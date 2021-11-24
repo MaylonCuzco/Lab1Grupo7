@@ -44,20 +44,17 @@ header{
 #contenido {
     width: 1000px;
     margin: 0 auto;
+    
 }
 .ojo{
     width: 10px;
     height: 40px;
-    color: green;
+    color: #00713D;
     padding: 5%;
+
 }
 .imgOjo{
     width: 40px;
     height:40px;
 }
-.ojo h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-    color: #00532c;
-    
-}
+
