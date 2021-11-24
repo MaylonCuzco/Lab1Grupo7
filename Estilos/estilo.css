@@ -39,22 +39,25 @@ header{
 }
 
 
-
-
-#contenido {
-    width: 1000px;
-    margin: 0 auto;
-    
-}
-.ojo{
-    width: 10px;
-    height: 40px;
+div.Ojo {
+    width: 40%;
+    margin: 1px auto;
     color: #00713D;
-    padding: 5%;
-
+    padding: 15px;
+    font-size: 20;
+    font-weight: 100%;
 }
-.imgOjo{
-    width: 40px;
-    height:40px;
+  
+div.Ojo img.izquierda {
+    float: left;
+    height: 30;
+    margin-right: 15px;
+}
+hr {
+    padding: 1;
+    height: 3px;
+    margin-left: 350;
+    margin-right: 25%;
+    background-color: #00713D;
 }
 
