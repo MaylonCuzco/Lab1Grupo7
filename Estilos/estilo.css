@@ -55,6 +55,9 @@ header{
     width: 40px;
     height:40px;
 }
-h3{
-    padding-left: 30;
+.ojo h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #00532c;
+    
 }
