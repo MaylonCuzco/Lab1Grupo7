@@ -1,19 +1,25 @@
 header{
    /* position: fixed;*/
+    /*position: fixed;*/
     width: 100%;
     padding-top: 20px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 5px black;
     opacity: .8;
 }
+
 .Navegación{
     margin: auto;
     position: relative;
     padding-bottom: 10px;
 }
-.Navegación a{
+.menuhorizontal{
+    display: flex;
+    justify-content: space-between;
+}
+.Navegación .menuhorizontal li a{
     text-decoration: none;
     color: black;
     justify-content: space-between;
@@ -21,13 +27,20 @@ header{
     padding: 10px;
 
 }
-.Navegación a:hover{
+
+
+
+.Navegación .menuhorizontal li a:hover{
     color: rgb(22, 121, 22);
 }
-.Navegación a .img1{
-    width: 20px;
-    height: 20px;
+.Navegación .menuhorizontal .img1{
+    width: 18px;
+    height: 14px;
 }
+
+
+
+
 #contenido {
     width: 1000px;
     margin: 0 auto;
