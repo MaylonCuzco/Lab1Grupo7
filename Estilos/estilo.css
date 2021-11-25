@@ -1,6 +1,6 @@
+/*MENU PRINCIPAL*/
 header{
-   /* position: fixed;*/
-    /*position: fixed;*/
+    position: fixed;
     width: 100%;
     padding-top: 20px;
     padding-left: 6%;
@@ -16,33 +16,84 @@ header{
     padding-bottom: 10px;
 }
 .menuhorizontal{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.Navegación .menuhorizontal li a{
-    text-decoration: none;
+.menuhorizontal>li>a{
+    display: block;
+    padding: 5px 10px;
     color: black;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px;
+    text-decoration: none;
+}
+.menuhorizontal>li:hover{
+    background-color: green;
+    transition: all .3s;
 
 }
+.menuhorizontal>li>a:hover{
+    color: honeydew;
+    transition: all .3s;
+}
 
-
-
-.Navegación .menuhorizontal li a:hover{
-    color: rgb(22, 121, 22);
+.menuvertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(37, 43, 30);
+}
+.menuhorizontal li:hover .menuvertical{
+    display: block;
+}
+.menuvertical li:hover{
+    background-color: rgb(104, 104, 104);
+}
+.menuvertical li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
 }
 .Navegación .menuhorizontal .img1{
     width: 18px;
     height: 14px;
 }
-<<<<<<< HEAD
-#contenido {
-    width: 1000px;
-    margin: 0 auto;
+/*FIN DE MENU PRINCIPAL*/
+
+/*Carrusel*/
+.carrusel{
+    width: 100%;
+    height: 97%;
+    margin: auto;
+    overflow: hidden;
 }
-=======
+.carrusel ul{
+    padding: 0;
+    display: flex;
+    width: 100%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+.carrusel li{
+    width: 100%;
+    list-style: none;
+}
+.carrusel >img{
+    width: 100%;
+}
+@keyframes cambio{
+    0% {margin-left: 0;}
+    35% {margin-left: 0;}
+
+    40% {margin-left: -100%;}
+    65% {margin-left: -100%;}
+
+    75% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+
+}
 
 
 div.Ojo {
@@ -67,4 +118,4 @@ hr {
     background-color: #00713D;
 }
 
->>>>>>> 089d1acb5e93a769a3e9995d703143b9a0f8e71f
+
