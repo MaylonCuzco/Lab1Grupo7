@@ -1,19 +1,25 @@
 header{
-    position: fixed;
+   /* position: fixed;*/
+    /*position: fixed;*/
     width: 100%;
     padding-top: 20px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 5px black;
     opacity: .8;
 }
+
 .Navegación{
     margin: auto;
     position: relative;
     padding-bottom: 10px;
 }
-.Navegación a{
+.menuhorizontal{
+    display: flex;
+    justify-content: space-between;
+}
+.Navegación .menuhorizontal li a{
     text-decoration: none;
     color: black;
     justify-content: space-between;
@@ -21,14 +27,44 @@ header{
     padding: 10px;
 
 }
-.Navegación a:hover{
+
+
+
+.Navegación .menuhorizontal li a:hover{
     color: rgb(22, 121, 22);
 }
-.Navegación a .img1{
-    width: 20px;
-    height: 20px;
+.Navegación .menuhorizontal .img1{
+    width: 18px;
+    height: 14px;
 }
+<<<<<<< HEAD
 #contenido {
     width: 1000px;
     margin: 0 auto;
 }
+=======
+
+
+div.Ojo {
+    width: 40%;
+    margin: 1px auto;
+    color: #00713D;
+    padding: 15px;
+    font-size: 20;
+    font-weight: 100%;
+}
+  
+div.Ojo img.izquierda {
+    float: left;
+    height: 30;
+    margin-right: 15px;
+}
+hr {
+    padding: 1;
+    height: 3px;
+    margin-left: 350;
+    margin-right: 25%;
+    background-color: #00713D;
+}
+
+>>>>>>> 089d1acb5e93a769a3e9995d703143b9a0f8e71f
